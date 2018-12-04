@@ -1,0 +1,10 @@
+; sample macro of Tera Term
+;
+; File: get_data_1.ttl
+; Description: Send StartSendingData command with data set 1.Interval of sending data is 1sec
+; Environment: generic
+; Update: 2015/08/22
+; Author: Kazumichi Shirai
+
+
+send $AF$06$00$01$03$E8$00$43
